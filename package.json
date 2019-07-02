@@ -1,0 +1,49 @@
+{
+  "name": "location-manager",
+  "version": "1.0.0",
+  "description": "Location manager app built with Next.js and Airtable.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "now dev",
+    "build": "next build",
+    "now-build": "next build",
+    "start": "next start",
+    "export": "next export",
+    "deploy": "now --target production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kjbrum/location-manager.git"
+  },
+  "keywords": [],
+  "author": "Kyle Brumm <kjbrumm@gmail.com> (http://kylebrumm.com)",
+  "license": "ISC",
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "airtable": "^0.6.0",
+    "express": "^4.17.1",
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^8.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-markdown": "^4.1.0"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^1.2.0",
+    "@tailwindcss/custom-forms": "^0.2.0",
+    "autoprefixer": "^9.6.0",
+    "cssnano": "^4.1.10",
+    "pixrem": "^5.0.0",
+    "postcss-flexibility": "^2.0.0",
+    "postcss-functions": "^3.0.0",
+    "postcss-hexrgba": "^1.0.1",
+    "postcss-import": "^12.0.1",
+    "postcss-nested": "^4.1.2",
+    "tailwindcss": "^1.0.4"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}

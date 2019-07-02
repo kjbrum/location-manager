@@ -1,0 +1,18 @@
+{
+    "version": 2,
+    "name": "location-manager",
+    "alias": "location-manager",
+    "builds": [
+        { "src": "api/**/*.js", "use": "@now/node" },
+        { "src": "next.config.js", "use": "@now/next" }
+    ],
+    "routes": [
+        { "src": "/location/(?<id>[^/]+)", "dest": "/single?id=$id" }
+    ],
+    "env": {
+        "SITE_URL": "https://location-manager.now.sh",
+        "AIRTABLE_API_KEY": "@airtable-api-key",
+        "AIRTABLE_BASE_ID": "@airtable-location-manager-base-id",
+        "AIRTABLE_TABLE_NAME": "locations"
+    }
+}

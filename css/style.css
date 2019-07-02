@@ -1,0 +1,21 @@
+/*
+// Tailwind - Base
+// ------------------------
+*/
+@import "tailwindcss/base";
+@import "./_base.css";
+
+
+/*
+// Tailwind - Components
+// ------------------------
+*/
+@import "tailwindcss/components";
+/* @import "./components/_button.css"; */
+
+
+/*
+// Tailwind - Utilities
+// ------------------------
+*/
+@import "tailwindcss/utilities";
