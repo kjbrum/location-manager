@@ -50,6 +50,7 @@ class Home extends React.Component {
         } else {
             return (
                 <Layout>
+                    update here
                     {airtableLocations.map(location => (
                         <LocationBlock
                             key={location.id}
